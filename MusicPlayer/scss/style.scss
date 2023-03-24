@@ -15,12 +15,12 @@ figure {
         font-size: 0;
 
         strong {
-            font: bold 36px/1.4 'arial';
+            font: bold 36px/1.4 "arial";
             color: #fff;
             letter-spacing: 1px;
         }
         span {
-            font: 12px/1 'arial';
+            font: 12px/1 "arial";
             color: #fff;
             opacity: 0.8;
             letter-spacing: 1px;
@@ -35,17 +35,17 @@ figure {
         color: #fff;
     }
 
-    @import 'panel';
-    @import 'btns';
+    @import "panel";
+    @import "btns";
 
     > p {
         position: absolute;
         bottom: 7vh;
-        left: 50%; 
+        left: 50%;
         transform: translateX(-50%);
-        font: 12px/1 'arial';
+        font: 12px/1 "arial";
         color: #fff;
-        letter-spacing: 2px; 
+        letter-spacing: 2px;
         opacity: 0.8;
     }
 }
